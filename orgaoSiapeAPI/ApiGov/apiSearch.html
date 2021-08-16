@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Page Title</title>
+        <link rel="stylesheet"  href="css/apiSearch.css">
+        <script src="script/apiSearch.js"></script>
+    </head>
+    <body>
+        <header>
+            <!--Criação da caixa verde-->
+            <div class = "box"> <h2> Teste </h2> </div>
+        </header>
+
+        <main id="api">
+            <div class="div">
+                <h2>Consulta Orgãos SIAPE</h2>
+                <form>
+                   <label for="codigo">Código para consulta:</label>
+                   <input type="text" id="cod" class="input-padrao" required placeholder="xxxxxx">
+
+                   <input class = "button" id="search" type="button" value="consultar" onclick="enviar()">
+
+                   <table id="tabela"></table>
+               </form> 
+            </div>
+        </main>
+
+        <footer>
+            <!--Criação da caixa preta-->
+            <div class="box2"></div>
+        </footer>
+        <script src="script/apiSearch.js"></script>
+    </body>
+</html>
